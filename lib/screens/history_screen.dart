@@ -23,6 +23,9 @@ class _HistoryScreenState extends State<HistoryScreen> {
         SystemUiOverlayStyle(statusBarColor: green1));
     HistoryController.init();
     listHistory.addAll(historyController.read("history"));
+    listHistory.sort((a, b) {
+      return b.dateTime.compareTo(a.dateTime);
+    });
   }
 
   @override

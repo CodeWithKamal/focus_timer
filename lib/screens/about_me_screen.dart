@@ -41,7 +41,13 @@ class _AboutMeScreenState extends State<AboutMeScreen> {
               const SizedBox(
                 height: 30,
               ),
-              Center(child: Image.asset("assets/logo.png")),
+              Center(
+                child: Image.asset(
+                  "assets/logo.png",
+                  width: 150,
+                  height: 150,
+                ),
+              ),
               const SizedBox(
                 height: 20,
               ),
