@@ -1,4 +1,4 @@
-# Focus Timer
+# Focus Timer.
 
 This is Pomodoro Focus Timer App made with Flutter.
 
